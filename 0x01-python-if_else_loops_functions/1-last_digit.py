@@ -6,8 +6,8 @@ if number < 0:
     last_num = -last_num
 print("Last digit of {} is {} and is ".format(number, last_num), end="")
 if last_num > 5:
-    print("and is greater than 5")
+    print("greater than 5")
 elif last_num == 0:
-    print("and is 0")
+    print("0")
 else:
     print("and is less than 6 and not 0")
