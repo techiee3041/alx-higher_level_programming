@@ -79,4 +79,3 @@ class SinglyLinkedList:
         if location.next_node:
             new.next_node = location.next_node
         location.next_node = new
-
